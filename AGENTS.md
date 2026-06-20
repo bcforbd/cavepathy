@@ -23,12 +23,12 @@ These rules apply regardless of which agent platform runs the skill:
 - Hook: inject via `UserPromptSubmit` for session persistence
 
 ### OpenAI Codex / ChatGPT
-- Skill discovered via `agents/openai.yaml`
+- Skill discovered via `skills/cavepathy/agents/openai.yaml`
 - Implicit invocation on triggers: "caveman", "cavepathy", "be concise"
 - Show in UI picker under "coding-style" category
 
 ### Hermes Agent
-- Skill discovered via `agents/hermes.yaml`
+- Skill discovered via `skills/cavepathy/agents/hermes.yaml`
 - Requires tools: read, write, edit, grep, glob, bash, agent
 - Platform-specific: hermes-agent, hermes-cli, hermes-web
 
@@ -58,7 +58,7 @@ These rules apply regardless of which agent platform runs the skill:
 |---|---|---|
 | Claude Code | `~/.claude/skills/cavepathy/` | `.claude/skills/` |
 | Codex | `~/.codex/skills/cavepathy/` | `.agents/skills/` |
-| Hermes | `hermes skills install <url>` | `agents/hermes.yaml` |
+| Hermes | `hermes skills install <url>` | `skills/cavepathy/agents/hermes.yaml` |
 | OpenClaw | `~/.openclaw/workspace/skills/cavepathy/` | `SOUL.md` + skill body |
 | Gemini CLI | `.agents/skills/cavepathy/` | `.agents/skills/` scan |
 | Kilo Code | `.agents/skills/cavepathy/` | `.agents/skills/` scan |

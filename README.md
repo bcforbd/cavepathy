@@ -7,7 +7,7 @@ Merges [caveman](https://github.com/JuliusBrussee/caveman) output compression wi
 ## Install
 
 ```bash
-npx skills add cavepathy/cavepathy
+npx skills add bcforbd/cavepathy
 ```
 
 Or manually copy `skills/cavepathy/` to your agent's skill directory.
@@ -33,7 +33,7 @@ Auto-invokes on triggers: "caveman", "cavepathy", "be concise".
 ### Hermes Agent
 
 ```bash
-hermes skills install https://github.com/cavepathy/cavepathy
+hermes skills install https://github.com/bcforbd/cavepathy
 ```
 
 ### OpenClaw

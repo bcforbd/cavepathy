@@ -5,7 +5,7 @@
       "args": [
         "skills",
         "serve",
-        "cavepathy/cavepathy"
+        "bcforbd/cavepathy"
       ],
       "env": {
         "SKILL_PATH": "skills/cavepathy/SKILL.md"

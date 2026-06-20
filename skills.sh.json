@@ -2,7 +2,7 @@
   "name": "cavepathy",
   "version": "1.0.0",
   "description": "Terse, accurate coding replies. Merges caveman output compression with Karpathy's LLM-coding guidelines. Zero filler, zero silent assumptions.",
-  "author": "cavepathy",
+  "author": "bcforbd",
   "license": "MIT",
   "keywords": [
     "caveman",
@@ -38,6 +38,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cavepathy/cavepathy"
+    "url": "https://github.com/bcforbd/cavepathy"
   }
 }
