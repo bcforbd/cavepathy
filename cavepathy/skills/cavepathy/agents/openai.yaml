@@ -1,0 +1,26 @@
+name: cavepathy
+version: 1.0.0
+description: >
+  Terse, accurate coding replies. Merges output compression (drop filler/articles/hedging)
+  with Karpathy's LLM-coding guidelines (surface assumptions, minimal code, surgical edits).
+agent: codex
+invocation:
+  implicit: true
+  triggers:
+    - "caveman"
+    - "cavepathy"
+    - "be concise"
+    - "less tokens"
+    - "talk like caveman"
+  slash_commands:
+    - /cavepathy
+    - /caveman
+ui:
+  show_in_picker: true
+  category: coding-style
+  icon: compress
+  label: "Cavepathy - Compressed Coding"
+policies:
+  auto_apply: false
+  requires_confirmation: false
+  context_scope: session

@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "cavepathy": {
+      "command": "npx",
+      "args": [
+        "skills",
+        "serve",
+        "cavepathy/cavepathy"
+      ],
+      "env": {
+        "SKILL_PATH": "skills/cavepathy/SKILL.md"
+      }
+    }
+  }
+}
