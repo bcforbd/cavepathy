@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="62" fill="#1C1917"/>
+  <circle cx="64" cy="64" r="60" fill="#292524"/>
+  <!-- Club/hammer -->
+  <rect x="28" y="38" width="8" height="40" rx="3" fill="#A8A29E" transform="rotate(-20 32 58)"/>
+  <ellipse cx="26" cy="36" rx="14" ry="10" fill="#78716C" transform="rotate(-20 26 36)"/>
+  <ellipse cx="26" cy="36" rx="10" ry="7" fill="#57534E" transform="rotate(-20 26 36)"/>
+  <!-- Terminal/screen -->
+  <rect x="60" y="30" width="44" height="32" rx="3" fill="#0C0A09" stroke="#F59E0B" stroke-width="2"/>
+  <!-- Screen glow -->
+  <rect x="64" y="34" width="36" height="24" rx="1" fill="#1C1917"/>
+  <!-- Terminal text lines -->
+  <line x1="68" y1="40" x2="88" y2="40" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  <line x1="68" y1="47" x2="80" y2="47" stroke="#FB923C" stroke-width="2" stroke-linecap="round"/>
+  <line x1="68" y1="54" x2="92" y2="54" stroke="#FBBF24" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Cursor -->
+  <rect x="93" y="52" width="5" height="6" fill="#F59E0B" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Glow behind screen -->
+  <circle cx="82" cy="46" r="30" fill="url(#glow)" opacity="0.4"/>
+  <!-- Lightning bolt / energy -->
+  <path d="M74 66 L78 74 L72 74 L76 86" stroke="#F59E0B" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Hand holding club -->
+  <circle cx="40" cy="68" r="8" fill="#D6D3D1"/>
+  <circle cx="40" cy="68" r="6" fill="#A8A29E"/>
+  <!-- Caveperson head -->
+  <circle cx="52" cy="76" r="10" fill="#D6D3D1"/>
+  <circle cx="52" cy="76" r="8" fill="#E7E5E4"/>
+  <!-- Hair -->
+  <path d="M42 72 Q46 62 56 64 Q62 66 62 72" fill="#57534E"/>
+  <!-- Eyes -->
+  <circle cx="48" cy="77" r="1.5" fill="#1C1917"/>
+  <circle cx="56" cy="77" r="1.5" fill="#1C1917"/>
+  <!-- Body -->
+  <rect x="44" y="86" width="16" height="18" rx="4" fill="#D6D3D1"/>
+  <!-- Arms reaching toward screen -->
+  <path d="M60 90 Q70 82 78 80" stroke="#D6D3D1" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M44 90 Q38 84 34 80" stroke="#D6D3D1" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>
